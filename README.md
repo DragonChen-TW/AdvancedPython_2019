@@ -1,29 +1,31 @@
 # 2019 網研社 進階Python 課綱
 
 ## 資訊
-- 標題：熟練 Python 和你最想學的「深度學習」
+- 標題：熟練 Python 透過「物件導向」和「深度學習」
 - 時間：三晚上
 - 教室：管CM
-- Github: 點這裡
+- Github: [點這裡](https://github.com/teacher144123/AdvancedPython_2019)
+- 環境與編譯器：Python3.7、Atom
 - 簡介：
-> 什麼？21世紀都過了五分之一，你還不會 Python 嗎？深度學習快要可以統治地球~~反攻大陸~~了，你連 Convolutional Neural Network（CNN）是啥都不知道？
-> 這堂課不一定能讓你從初階到進階，但會讓你從生疏到熟練，從此愛上、精通 Python。課程中會用資結、物件導向當作練習，再加上時下非常熱門的深度學習，適合初階和中階、而且想要熟練 Python 的學習者。
+> TIOBE index 將「2018 年度程式語言」頒給了 Python，很多人都有學過 Python、寫過幾個簡單的小練習，但是不知道怎麼進一步使用它，不知道怎麼深入使用它。
+> 這堂課屬於中階難度，目的是學習 Python 多項應用、熟練使用 Python 技巧，培養 Python 成為主要語言。內容會覆蓋物件導向和少量資結，後半段課程則是深度學習的入門課程，。
 
 ## 資源
 ### 基本 Python
 - learnpython - 學習基礎
 https://www.learnpython.org
-- 我的 Github - 基本語法
+- 前年的 Python - 基本語法
 https://teacher144123.github.io/PythonCrawler_2017/html/basic_python/
 - CodeData 教學（請學習下面 Python3 的部分，範圍比較廣、比較多）
-- https://openhome.cc/Gossip/CodeData/PythonTutorial/index.html
+https://openhome.cc/Gossip/CodeData/PythonTutorial/index.html
 
 ## 課綱
 
+
 | 堂數 | 類型 | 主題 |
 | - | - | - |
-|  1 | 介紹 | Python 現況、框架與 pip 教學 |
-|  2 | 介紹 | Atom教學、Python 技巧與練習 |
+|  1 | 介紹 | Python 現況、環境教學、Python基礎 |
+|  2 | 介紹 | Github 使用、Python 技巧與練習 |
 |  3 | 介紹 | 資料結構與 Onlinejudge |
 |  4 | OOP | 物件導向一，定義與使用 |
 |  5 | OOP | 物件導向二，Magic Method 和 Dataclasses
