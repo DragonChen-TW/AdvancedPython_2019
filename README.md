@@ -5,7 +5,8 @@
 - 時間：三晚上
 - 教室：管CM
 - Github: [點這裡](https://github.com/teacher144123/AdvancedPython_2019)
-- 環境與編譯器：Python3.7、Atom
+- Youtube: 建置中
+- 環境與編輯器：Python3.7、Atom
 - 簡介：
 > TIOBE index 將「2018 年度程式語言」頒給了 Python，很多人都有學過 Python、寫過幾個簡單的小練習，但是不知道怎麼進一步使用它，不知道怎麼深入使用它。
 > 這堂課屬於中階難度，目的是學習 Python 多項應用、熟練使用 Python 技巧，培養 Python 成為主要語言。內容會覆蓋物件導向和少量資結，後半段課程則是深度學習的入門課程，。
@@ -35,3 +36,5 @@ https://openhome.cc/Gossip/CodeData/PythonTutorial/index.html
 |  9 | 深度 | PyTorch - CNN(1) |
 | 10 | 深度 | PyTorch - CNN(2) |
 | 11 | 深度 | PyTorch - 進階 |
+
+2019 Advanced Python course  in NSYSU mis by Small Dragon Chen
