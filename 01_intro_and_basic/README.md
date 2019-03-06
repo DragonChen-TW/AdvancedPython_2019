@@ -106,8 +106,8 @@ python3 --version
 
 ### 基礎 Python 複習
 
-- [Basic(01) - Variables](01_intro_and_basic/basic_01.py)
-- [Basic(02) - Function and Strings](01_intro_and_basic/basic_02.py)
-- [Basic(03) - Loop and Statement](01_intro_and_basic/basic_03.py)
+- [Basic(01) - Variables](basic_01.py)
+- [Basic(02) - Function and Strings](basic_02.py)
+- [Basic(03) - Loop and Statement](basic_03.py)
 
 2019 Advanced Python course  in NSYSU mis by Small Dragon Chen
