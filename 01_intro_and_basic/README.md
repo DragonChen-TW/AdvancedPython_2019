@@ -1,21 +1,22 @@
 # Lesson 01 - 簡介與基礎
 
-<!-- TOC -->
-
-- [資訊](#%E8%B3%87%E8%A8%8A)
-- [內容](#%E5%85%A7%E5%AE%B9)
-	- [介紹](#%E4%BB%8B%E7%B4%B9)
-	- [環境](#%E7%92%B0%E5%A2%83)
-		- [Atom](#atom)
-
-<!-- /TOC -->
-
 ## 資訊
 
 - Date: 03/06
 - 主題: Python 現況、Python技巧、pip 教學
 
 ## 內容
+
+<!-- TOC -->
+
+- [介紹](#%E4%BB%8B%E7%B4%B9)
+- [環境](#%E7%92%B0%E5%A2%83)
+	- [Atom](#atom)
+	- [Python 和 pip](#python-%E5%92%8C-pip)
+- [基礎 Python 複習](#%E5%9F%BA%E7%A4%8E-python-%E8%A4%87%E7%BF%92)
+
+<!-- /TOC -->
+
 
 ### 介紹
 
@@ -103,7 +104,10 @@ python3 --version
 
 恭喜！你的 Python 已經安裝成功了！
 
+### 基礎 Python 複習
 
-
+- [Basic(01) - Variables](01_intro_and_basic/basic_01.py)
+- [Basic(02) - Function and Strings](01_intro_and_basic/basic_02.py)
+- [Basic(03) - Loop and Statement](01_intro_and_basic/basic_03.py)
 
 2019 Advanced Python course  in NSYSU mis by Small Dragon Chen
