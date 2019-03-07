@@ -30,6 +30,7 @@ a = 'Jackson'
 b = 3
 print(a, 'have', b, 'apples.')
 print('{} have {} apples'.format(a, b))
+print(f'{a} have {b} apples')
 
 print('----------')
 
@@ -43,3 +44,13 @@ And sorry that I could not travel both
 And be one traveler, long I stood
 '''  # 多行字串適合使用 '''
 print(s)
+
+# Function
+def hello(s):
+    '''
+    This function is for say hello
+    '''
+    print('hello', s)
+
+hello('Annie')
+hello('')

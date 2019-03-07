@@ -3,6 +3,10 @@ print('===== If-Else =====')
 
 a = 3
 l = [1, 2, 3]
+
+if a < 5:
+    print('a < 5')
+
 if a in l:
     print('a in l')
 else:
@@ -15,7 +19,10 @@ a = 10
 if a == 5:
     print('a == 5')
 elif a < 10:
-    print('a < 10')
+    if a == 7:
+        pass
+    else:
+        pass
 else:
     print('a >= 10')
 
@@ -28,10 +35,25 @@ for n in nums:
 
 print('----------')
 
+for i in range(5):
+    print(i)
+print()
+for i in range(5, 11):
+    print(i)
+print()
 for i in range(1, 10, 2):
     print(i)
 
-# Python 裡不要像下面這樣寫
+# 和 C 語言的 for 比較
+# for(i = 1;i < 10;i += 2){
+#
+# }
+
+# List Comprehension
+print('===== List Comprehension =====')
+
+# 其他語言的寫法
+# Python 裡盡最大可能不要用這寫法
 l = []
 for i in range(1, 10, 2):
     l.append(i * 10)
@@ -42,5 +64,8 @@ l = list(map(lambda x:x * 10, range(1, 10, 2)))
 print(l)
 
 # 這樣最簡單，也超級快
-l = [i * 10 for i in range(1, 10, 2)]
+l = [i for i in range(1, 10, 2)]
 print(l)
+
+# 額外小技巧
+print(list(range(1, 10, 2)))

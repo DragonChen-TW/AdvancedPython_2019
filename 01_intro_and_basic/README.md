@@ -62,7 +62,7 @@ https://atom.io
 現在 Python3 最新版本: 3.7.2
 
 ##### Mac or Linux
-~~如果你是 mac 或是 linux 系統，其實你的電腦裡面已經內建 Python，不過我們要使用的是Python3所以還是需要下載安裝
+如果你是 mac 或是 linux 系統，其實你的電腦裡面已經內建 Python，不過我們要使用的是Python3所以還是需要下載安裝
 
 [Python 3.7.2下載](https://www.python.org/downloads/release/python-372/)
 <img src="/images/Python3.7.2_download.png" style="width:70%;margin: 0 15%;">
