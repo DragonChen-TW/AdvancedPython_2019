@@ -4,10 +4,12 @@ print('===== If-Else =====')
 a = 3
 l = [1, 2, 3]
 
+print('hello')
+
 if a < 5:
     print('a < 5')
 
-if a in l:
+if b in l:
     print('a in l')
 else:
     print('a not in l')
