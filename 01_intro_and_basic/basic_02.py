@@ -29,15 +29,15 @@ print('===== String =====')
 a = 'Jackson'
 b = 3
 print(a, 'have', b, 'apples.')
-print('{} have {} apples'.format(a, b))
-print(f'{a} have {b} apples')
+print('{} have {} apples'.format(a, b)) # 後面這種會用最多
+print(f'{a} have {b} apples') # Python 3.6 開始支援 新用法
 
 print('----------')
 
 s = 'small'
 print(s)
 s = "Hello\nSmall Dragon"
-print(s)# print 會輸出 \n 跳脫字元
+print(s) # print 會輸出 \n 跳脫字元
 s = '''
 Two roads diverged in a yellow wood,
 And sorry that I could not travel both
