@@ -20,8 +20,11 @@ https://teacher144123.github.io/PythonCrawler_2017/html/basic_python/
 - CodeData 教學（請學習下面 Python3 的部分，範圍比較廣、比較多）
 https://openhome.cc/Gossip/CodeData/PythonTutorial/index.html
 
-## 課綱
+### 物件導向
+- RealPython - OOP tutorial
+https://realpython.com/python3-object-oriented-programming/
 
+## 課綱
 
 | 堂數 | 類型 | 主題 |
 | - | - | - |
@@ -36,5 +39,14 @@ https://openhome.cc/Gossip/CodeData/PythonTutorial/index.html
 |  9 | 深度 | PyTorch - CNN(1) |
 | 10 | 深度 | PyTorch - CNN(2) |
 | 11 | 深度 | PyTorch - 進階 |
+
+## 程式碼（Scripts）
+### Basic
+
+### Advanced
+
+### OOP
+
+### Deep Learning
 
 2019 Advanced Python course  in NSYSU mis by Small Dragon Chen
