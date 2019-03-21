@@ -19,6 +19,10 @@ class Solution:
 
         # Solution 3 O(n)
         ans = {}
+        # ans = set()
+        # ans = list()
+        # 可以隨意換資料結構
+        # dict 和 set 遠比 list 快
 
         for i in range(len(nums)):
             if nums[i] in ans and (target - nums[i]) in nums:
@@ -26,7 +30,11 @@ class Solution:
             else:
                 ans[nums[i]] = True
                 ans[target - nums[i]] = True
+                # ans.add(nums[i])          # for set
+                # ans.add(target - nums[i]) # for set
+                # ans.append(nums[i])       # for list
+                # ans.append(target - nums[i])# for list
 
 s = Solution()
-print(s.twoSum([2, 7, 11, 15], 9)) # ans=[0,1]
-print(s.twoSum([3, 2, 4], 7)) # ans=[0,2]
+print(s.twoSum([2, 7, 11, 15], 9))  # ans=[0,1]
+print(s.twoSum([3, 2, 4], 7))       # ans=[0,2]

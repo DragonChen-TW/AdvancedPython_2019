@@ -112,29 +112,45 @@ print('----------')
 l = list(range(1, 10))
 print(5 in l) # O(n)
 print(l[3])   # O(1)
+
 s = set(i for i in range(1, 10))
 print(5 in l) # O(1)
-print(s[3])   # O(1)
+print(s)
+# print(s[3])   # set doesn't support indexing
+
 d = {i:0 for i in range(1, 10)}
 print(5 in l) # O(1)
 print(d[3])   # O(1)
 
 # bit Operation
-# c language
+
+# (c language like)
 # int a = 3;
-# if(a == 3 && a > 0)printf("hi\n"); # logic AND
+# if(a == 3 && a > 0)printf("hi\n"); # it's logic AND
+
+# (back to Python)
 # a = 11
-# b = a & 15 # bit AND
-#
-# || # logic OR
-# |  # bit OR
+# b = a & 15 # it's bit AND
 #
 # 1011 < 11
 # 1101 < 13
 # bit AND
 # 1001 < 9
+
+# OR is the same
+# || # logic OR
+# |  # bit OR
 #
 # 1011 < 11
 # 0100 < 4
 # bit OR
 # 1111 < 15
+
+print('===== Bit Operation =====')
+a = 11
+b = a & 13
+print(b) # should be 9
+
+a = 11
+b = a | 4
+print(b) # should be 15
