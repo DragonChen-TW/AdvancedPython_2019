@@ -29,6 +29,19 @@
 
 LeetCode 0001
 https://leetcode.com/problems/two-sum/
+Script: [there](leetcode_0001.py)
 
-LeetCode 0009
-https://leetcode.com/problems/palindrome-number/submissions/
+#### 解題要點
+- O(n^2) 基礎解法
+- O(1/2 * n^2) 剪枝、降低係數
+- O(n) 改進資料結構，大幅提升演算法
+dict、set 利用 hash 儲存資料
+使用 in 運算子時，時間複雜度只需要 O(1)
+
+### Homework
+#### Stack(Linked-list)
+
+利用 Linked-list 改寫 [OOP_02.py](OOP_02.py) 的 Stack
+
+實現 push、pop、is_empty
+[hw.py](hw.py)內有提供 Node class（linked-list 的最小單位）、print_linked_list

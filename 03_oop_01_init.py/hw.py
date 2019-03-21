@@ -38,7 +38,7 @@ class Stack:
         # check is linked-list empty
         return True # return bool True or False
 
-# # the Stack test script
+# # Stack test script
 # l = [1, 3, 5]
 # s = Stack()
 # for n in l:
