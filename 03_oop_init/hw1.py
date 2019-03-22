@@ -19,6 +19,7 @@ def print_linked_list(head):
 # n2.next = n3
 #
 # print_linked_list(n1)
+# # expect 1 > 3 > 5 >
 
 # Let's do a linked-list version stack
 # Functions: push, pop, is_empty
@@ -49,4 +50,7 @@ class Stack:
 # s.push('b')
 # s.pop()
 #
-# print_linked_list(s.head)
+# while not s.is_empty():
+#     print(s.pop(), end='>')
+# print()
+# # ans is a > 3 > 1
