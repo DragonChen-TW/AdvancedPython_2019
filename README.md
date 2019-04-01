@@ -1,9 +1,9 @@
-# 2019 網研社 進階Python 課綱
+# 2019 網研社 進階 Python 課綱
 
 ## 資訊
 - 標題：熟練 Python 透過「物件導向」和「深度學習」
 - 時間：三晚上
-- 教室：管CM
+- 教室：管 CM 1019
 - Github: [點這裡](https://github.com/teacher144123/AdvancedPython_2019)
 - Youtube: 建置中
 - 環境與編輯器：Python3.7、Atom
