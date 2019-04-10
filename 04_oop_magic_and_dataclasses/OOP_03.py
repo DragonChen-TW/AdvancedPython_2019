@@ -50,10 +50,10 @@ class String:
     def __len__(self):       # auto bind to len()
         return len(self.data)
 
-    def __eq__(self, s2):    # auto bin to ==
+    def __eq__(self, s2):    # auto bind to ==
         return len(self.data) == len(s2.data)
 
-    def __repr__(self):      # auto bing to print()
+    def __repr__(self):      # auto bind to print()
         return "String {} Length: {}".format(
             self.data,
             len(self)
