@@ -8,9 +8,9 @@
 ## 內容
 
 ### Python TQC+ 競賽
-宣傳個比賽
-https://www.tqcplus.org.tw/python/Index.aspx
-獎金給不少
+宣傳個比賽  
+https://www.tqcplus.org.tw/python/Index.aspx  
+獎金給不少  
 http://media.usc.edu.tw/media/1125
 
 ### 繼承與多型
@@ -38,6 +38,9 @@ wiki 上的說法蠻完整的，待會看完實際 code 之後，可以再體會
 - a059 完全數
 https://zerojudge.tw/ShowProblem?problemid=a059
 
+- Solution: [There](zerojudge_a059.py)
+- Another:  [There](zerojudge_a059_2.py)
+
 ## 參考資料
-- Object-Oriented Programming (OOP) in Python 3 (RealPython)
+- Object-Oriented Programming (OOP) in Python 3 (RealPython)  
 https://realpython.com/python3-object-oriented-programming/

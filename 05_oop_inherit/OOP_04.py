@@ -15,12 +15,22 @@ class Dog:
 class BullDog(Dog):
     def run(self, speed):
         return "{} runs {}".format(self.name, speed)
+class BullDog2(Dog):
+    color = 'red'
+    def run(self, speed):
+        return "Hello"
 
-class AmericanBullDog(BullDog):
+class AmericanBullDog(BullDog, Dog):
+    country = 'America'
     def speak(self, sound):     # rewrite func
         return "{} don't wanna say anything".format(self.name)
-    country = 'America'
 
+# Naming
+_nums = 2 # 類似 private
+__ctr = True
+class_ = 'apple'
+def print_():
+    pass
 
 # Child classes inherit attributes and behaviors from the parent class
 jim = BullDog('Jim', 12)
