@@ -1,7 +1,7 @@
 # Lesson 06 - 期中 program 練習賽
 
 ## 資訊
-- Date: 04/22
+- Date: 04/24
 - 主題: 比賽! in LeetCode
 
 ## 規則
