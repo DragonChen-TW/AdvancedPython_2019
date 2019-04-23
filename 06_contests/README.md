@@ -19,25 +19,25 @@
 
 ## 題目
 - b971 *
-陣列 基本 例外
-https://zerojudge.tw/ShowProblem?problemid=b971
+https://zerojudge.tw/ShowProblem?problemid=b971  
+類別: 陣列 基本 例外
 
 - c730 *
-陣列 比較
-https://zerojudge.tw/ShowProblem?problemid=c730
+https://zerojudge.tw/ShowProblem?problemid=c730  
+類別: 陣列 比較
 
 - c680 *
-陣列 if
-https://zerojudge.tw/ShowProblem?problemid=c680
+https://zerojudge.tw/ShowProblem?problemid=c680  
+類別: 陣列 if
 
 - c874 **
-冪次 求規律
-https://zerojudge.tw/ShowProblem?problemid=c874
+https://zerojudge.tw/ShowProblem?problemid=c874  
+類別: 冪次 求規律
 
 - c776 **
-找規律
-https://zerojudge.tw/ShowProblem?problemid=c776
+https://zerojudge.tw/ShowProblem?problemid=c776  
+類別: 找規律
 
 - c777 ***
-遞迴
-https://zerojudge.tw/ShowProblem?problemid=c777
+https://zerojudge.tw/ShowProblem?problemid=c777  
+類別: 遞迴
