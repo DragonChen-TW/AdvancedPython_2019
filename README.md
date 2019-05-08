@@ -35,7 +35,7 @@ https://realpython.com/python3-object-oriented-programming/
 |  5 | OOP | 物件導向二，Magic Method 和 Dataclasses
 |  6 | OOP | 物件導向三，繼承與多型 |
 |  7 | 活動 | 期中發表or小比賽 |
-|  8 | 深度 | 深度學習前導理論與初步嘗試 |
+|  8 | 深度 | PyTorch - 導論與知識 |
 |  9 | 深度 | PyTorch - CNN(1) |
 | 10 | 深度 | PyTorch - CNN(2) |
 | 11 | 深度 | PyTorch - 進階 |
