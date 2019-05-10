@@ -22,7 +22,6 @@ if __name__ == '__main__':
             # update weight
             w = w - 0.001 * grad
 
-
             y_pred = forward(x_val, w)
             l = loss(y_val, y_pred)
 
