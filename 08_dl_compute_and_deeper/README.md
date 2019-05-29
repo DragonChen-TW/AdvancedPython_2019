@@ -19,7 +19,7 @@
 
 ### Ch6 Logistic Regression
 
-(pass)
+https://medium.com/@chih.sheng.huang821/機器-統計學習-羅吉斯回歸-logistic-regression-aff7a830fb5d
 
 ### Ch7 Wide and Deep
 
