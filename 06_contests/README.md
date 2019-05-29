@@ -2,7 +2,7 @@
 
 ## 資訊
 - Date: 04/24
-- 主題: 比賽! in LeetCode
+- 主題: 比賽! in Zerojudge
 
 ## 規則
 ### 比賽前
