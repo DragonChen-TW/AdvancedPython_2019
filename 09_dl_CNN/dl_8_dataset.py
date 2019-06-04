@@ -2,8 +2,8 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 from dl_plot import plot_with_label
 
-# dir = '~/data/'
-dir = 'D:/data/'
+dir = '~/data/'
+# dir = 'D:/data/'
 batch_size = 16
 
 dataset_train = datasets.MNIST(root=dir, train=True,
