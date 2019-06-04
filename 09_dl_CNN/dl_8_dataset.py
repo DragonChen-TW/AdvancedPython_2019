@@ -3,10 +3,11 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 from dl_plot import plot_with_label
 
-if platform.system == 'Windows':
+if platform.system() == 'Windows':
     dir = 'D:/data/'
 else:
     dir = '~/data/'
+print('dir in', dir)
 
 batch_size = 16
 
