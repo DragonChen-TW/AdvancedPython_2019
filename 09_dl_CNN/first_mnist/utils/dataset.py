@@ -2,7 +2,7 @@ import platform
 from torch.utils.data import Dataset, DataLoader
 from torchvision import datasets, transforms
 
-if platform.system == 'Windows':
+if platform.system() == 'Windows':
     dir = 'D:/data/'
 else:
     dir = '~/data/'
