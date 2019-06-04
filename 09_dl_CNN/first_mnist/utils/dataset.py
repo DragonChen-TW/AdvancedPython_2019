@@ -1,8 +1,12 @@
+import platform
 from torch.utils.data import Dataset, DataLoader
 from torchvision import datasets, transforms
 
-dir = '~/data/'
-# dir = 'D:/data/'
+if platform.system == 'Windows':
+    dir = 'D:/data/'
+else:
+    dir = '~/data/'
+
 batch_size = 16
 
 dataset_train = datasets.MNIST(root=dir, train=True,
