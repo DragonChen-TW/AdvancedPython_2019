@@ -6,7 +6,7 @@
 
 ## 內容
 
-**PPT進度：ch4 ~ 7**
+**PPT進度：ch4 ~ 10（略過數學）**
 
 ### Ch4 Back Propagation
 
@@ -25,6 +25,12 @@ https://medium.com/@chih.sheng.huang821/機器-統計學習-羅吉斯回歸-logi
 
 - Shape of Matrix Multiplacation(p6)
 
+### Ch8-9
+略
+
+### Ch10 BasicdCNN
+
+基本 CNN 前置
 
 ## 參考資料
 - PyTorch zero to all (Sung Kim)
