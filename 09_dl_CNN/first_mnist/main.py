@@ -1,3 +1,4 @@
+import platform
 import torch
 #
 from utils.dataset import train_data, test_data
@@ -7,8 +8,10 @@ from test import test
 
 if __name__ == '__main__':
     # == Setting ==
-    # device = torch.device('cuda')
-    device = torch.device('cpu')
+    if platform.system() == 'Windows':
+        device = torch.device('cuda')
+    else:
+        device = torch.device('cpu')
 
     # == Model ==
     model = SimpleCNN()

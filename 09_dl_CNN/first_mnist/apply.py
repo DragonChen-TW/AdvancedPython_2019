@@ -1,4 +1,4 @@
-import os
+import os, platform
 import torch
 from PIL import Image
 import numpy as np
@@ -28,13 +28,16 @@ def get_input_data(dir='input_data'):
 
 if __name__ == '__main__':
     # == Setting ==
-    # device = torch.device('cuda')
-    device = torch.device('cpu')
+    if platform.system() == 'Windows':
+        device = torch.device('cuda')
+    else:
+        device = torch.device('cpu')
+    print(device)
 
     # == Model ==
     model_files = 'checkpoints/best_CNN_99.pt'
     model = SimpleCNN()
-    model.load_state_dict(torch.load(model_files))
+    model.load_state_dict(torch.load(model_files, map_location='cpu'))
     model = model.to(device)
 
     # == Data ==
