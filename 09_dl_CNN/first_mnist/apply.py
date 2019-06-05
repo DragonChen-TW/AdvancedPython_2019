@@ -50,4 +50,4 @@ if __name__ == '__main__':
 
     out_labels = torch.argmax(out, dim=1)
     plot_with_label(imgs, out_labels,
-            batch_size=out.size(0), rows=2, cols=3)
+            batch_size=out.size(0), rows=3, cols=3)
