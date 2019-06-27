@@ -38,7 +38,6 @@ if __name__ == '__main__':
     model_files = 'checkpoints/best_CNN_99.pt'
     model = SimpleCNN()
     model.load_state_dict(torch.load(model_files, map_location='cpu'))
-    model = model.to(device)
 
     # == Data ==
     imgs = get_input_data()

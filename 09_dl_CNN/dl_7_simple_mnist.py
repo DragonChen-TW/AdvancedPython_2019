@@ -10,6 +10,7 @@ class SimpleCNN(nn.Module):
         self.fc = nn.Linear(320, 10)
 
     def forward(self, x):
+        # batchx1x28x28
         in_size = x.size(0)
         # the number of batch_size not the shape of img
 
@@ -23,7 +24,8 @@ class SimpleCNN(nn.Module):
         # conv2 10x12x12 > 20x8x8
         # max_pool 20x8x8 > 20x4x4
 
-        x = x.view(in_size, -1) # flatten the tensor
+        x = x.view(in_size, -1)
+        # flatten the tensor > batchx320
         x = self.fc(x)
 
         return x

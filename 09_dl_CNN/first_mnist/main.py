@@ -8,10 +8,7 @@ from test import test
 
 if __name__ == '__main__':
     # == Setting ==
-    if platform.system() == 'Windows':
-        device = torch.device('cuda')
-    else:
-        device = torch.device('cpu')
+    device = torch.device('cpu')
 
     # == Model ==
     model = SimpleCNN()
