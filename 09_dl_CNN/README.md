@@ -1,4 +1,4 @@
-# Lesson 08 - 深度學習（二）數學原理與「深度」
+# Lesson 09 - 深度學習（三）卷積神蹟網路（CNN）實作
 
 ## 資訊
 - Date: 06/05
@@ -9,8 +9,6 @@
 **PPT進度：ch10**
 
 ### Ch10 Basic CNN
-
-### PyTorch 實作
 
 ## 參考資料
 - PyTorch zero to all (Sung Kim)
